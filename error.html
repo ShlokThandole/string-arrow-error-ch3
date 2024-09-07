@@ -1,0 +1,13 @@
+<html>
+    <h2>error</h2>
+    <p>this is the great <b>error</b></p>
+    <p id="error_message"></p>
+    <script>
+        try {
+            addalert("welcome humans!!");
+        }
+        catch(err) {
+            document.getElementById("error_message").innerHTML = err.message;
+        }
+    </script>
+</html>
